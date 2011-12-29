@@ -1,0 +1,8 @@
+[?1034hModel: CBM USB 2.0 (scsi)
+Disk /dev/sdc: 254MB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+
+Number  Start   End    Size   Type     File system  Flags
+ 1      16.4kB  254MB  254MB  primary  fat16        boot 
+

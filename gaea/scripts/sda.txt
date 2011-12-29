@@ -1,0 +1,11 @@
+Model: ATA WDC WD1600AAJS-2 (scsi)
+Disk /dev/sda: 160042MB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+
+Number  Start    End       Size     Type     File system     Flags
+ 1      1.05MB   2048MB    2047MB   primary  linux-swap(v1)
+ 2      2048MB   83968MB   81920MB  primary  ext4
+ 3      83968MB  84073MB   105MB    primary  ntfs            boot
+ 4      84073MB  160040MB  75967MB  primary  ntfs
+

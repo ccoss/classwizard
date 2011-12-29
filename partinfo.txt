@@ -1,0 +1,13 @@
+Model: WDC WD40 0BB-00JKA0 (scsi)
+Disk /dev/sdb: 40.0GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+
+Number  Start   End     Size    Type      File system  Flags
+ 1      32.3kB  831MB   831MB   primary   ext3
+ 2      831MB   1662MB  831MB   primary
+ 3      1662MB  5782MB  4121MB  extended
+ 5      1662MB  4113MB  2451MB  logical
+ 6      4113MB  5782MB  1670MB  logical
+ 4      5782MB  40.0GB  34.2GB  primary
+

@@ -1,0 +1,12 @@
+[?1034hModel: ATA WDC WD2500BEVS-0 (scsi)
+Disk /dev/sda: 250GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+
+Number  Start   End     Size    Type      File system  Flags
+ 1      32.3kB  43.0GB  43.0GB  primary   ntfs              
+ 2      43.0GB  250GB   207GB   extended               lba  
+ 5      43.0GB  150GB   107GB   logical   ntfs              
+ 6      150GB   151GB   210MB   logical   ext3         boot 
+ 7      151GB   238GB   87.1GB  logical                lvm  
+

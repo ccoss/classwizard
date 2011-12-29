@@ -1,0 +1,6 @@
+fdisk -l |sed -e "s/[\*]/ /;s/[\+]/ /"|grep "^\/dev"|awk '{printf("%s %s      %s\n", $1, $4, $6)}' > t1
+i=0
+awk "{print $1}" t1 | sed "s|/dev/||; s/^.../& /; s/ .*//" |sort -u |while read line; do
+    grep "$line" t1 > partion$i
+    i=$(( $i + 1 ))
+done 

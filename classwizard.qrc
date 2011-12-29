@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>/etc/gaea/images/background.png</file>
+        <file>/etc/gaea/trans/zh.qm</file>
+        <file>/etc/gaea/trans/en.qm</file>
+    </qresource>
+</RCC>

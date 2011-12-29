@@ -1,0 +1,9 @@
+#!/bin/bash
+# 把 FNM 文本文件转换成一个 html 表格文件
+
+
+
+/sbin/fdisk -l | sed -e "s/[\*]/ /; /^[\/]/!d" | awk '{printf("%s %s\n", $1, $6)}' | sort -u > ttmm1
+df | grep "^[\/]" | awk '{printf("%s %s %s\n", $1, $6, $2)}' | sort | join ttmm1 - |  awk '{printf("%18s %18s %18s %18s\n", $1, $2, $3, $4)}'
+exit
+
